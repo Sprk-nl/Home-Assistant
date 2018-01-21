@@ -1,5 +1,5 @@
 # What is rfxtrx868_mqtt_hass
-It's a Toolkit to 
+It's a Python3 Toolkit to:
 - receive Visonic data via the rfxtrx (868 Mhz)
 - translate packets to readable text
 - send to mqtt broker
@@ -20,7 +20,7 @@ dialout:x:20:pi
 Check rfxtrx868_mqtt_hass.py for correct mqtt broker and serial port
 
 ```
-broker_address ="127.0.0.1" 
+broker_address = '127.0.0.1'
 dev_name       = '/dev/ttyUSB1'
 ```
 
@@ -38,5 +38,5 @@ nohup /home/homeassistant/.homeassistant/mqtt/rfxtrx868_visonic.py &
 ```
 
 Note:
-Python classes Packet, Status, SensorPacket, Security1 and Rfy 
+Python classes: Packet, Status, SensorPacket, Security1 and Rfy
 are copied from home-assistant to keep maximum message compatibility.

@@ -11,7 +11,7 @@ from signal import signal, SIGPIPE, SIG_DFL
 import json
 
 # Make sure the following settings are correct and you have access to serial.
-broker_address ="127.0.0.1" 
+broker_address = '127.0.0.1'
 dev_name       = '/dev/ttyUSB1'
 
 
